@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/et_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First name" />
+
+    <EditText
+        android:id="@+id/et_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lastname" />
+
+    <EditText
+        android:id="@+id/et_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company" />
+
+    <EditText
+        android:id="@+id/et_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Street address" />
+
+    <EditText
+        android:id="@+id/et_extended_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Extended address" />
+
+    <EditText
+        android:id="@+id/et_locality"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Locality" />
+
+    <EditText
+        android:id="@+id/et_region"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Region" />
+
+    <EditText
+        android:id="@+id/et_postal_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Postal code" />
+
+
+    <Button
+        android:id="@+id/btn_pay_pp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pagar con PayPal" />
+
+    <Button
+        android:id="@+id/btn_pay_cc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pagar con tarjeta" />
+
+</LinearLayout>
